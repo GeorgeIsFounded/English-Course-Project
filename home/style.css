@@ -1,0 +1,112 @@
+body {
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 100px;
+    padding: 5px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-size: cover;
+    margin: 4% 10% 5% 10%;
+}
+
+.wrapper {
+    width: 60px;
+    position: relative;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper .line1 {
+    margin-top: 200px;
+    width: 550px;
+    border: 1px solid gray;
+    position: absolute;
+    text-align: left;
+    right: 220%;
+}
+
+.title p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper h1 {
+    margin-top: 60px;
+    display: flex;
+    width: 500px;
+    right: 230%;
+    position: absolute;
+    text-align: left;
+    flex-direction: row;
+    color: white;
+    font-size: 45px;
+    font-family: Poppins;
+}
+
+.wrapper p {
+    margin-top: 230px;
+    display: flex;
+    width: 500px;
+    right: 230%;
+    position: absolute;
+    text-align: left;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 100;
+}
+
+.pare {
+    border: 0px solid black;
+    border-radius: 20px;
+    filter: brightness(50%);
+}
+
+.title {
+    font-family: Indie Flower;
+    font-size: 20px;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+}
+
+.h-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.splide__slide {
+    width: 100vh;
+}
